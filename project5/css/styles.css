@@ -1,0 +1,39 @@
+/* Styles for Project 5 */
+
+body {
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+    background-color: black
+}
+
+h1 {    
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: red;
+    background-color: white;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+    background-color: white
+}
+
+p {
+    background-color: white;
+    line-height: 3
+}
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
