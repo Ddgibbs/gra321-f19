@@ -16,20 +16,22 @@ h1 {
     font-weight: bolder;
     text-transform: uppercase;
     color: red;
-    background-color: white;
+    background-color: black;
 }
 
 h2 {
     font-size: 20px;
     font-weight: bold;
     color: yellow;
-    background-color: white
+    background-color: black
 }
 
 p {
-    background-color: white;
-    line-height: 3
+    background-color: black;
+    line-height: 3;
+    color: white;
 }
+
 img {
     max-width: 100%;
 }
