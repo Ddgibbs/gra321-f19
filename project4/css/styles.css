@@ -1,0 +1,19 @@
+/* Styles for Project 4 */
+
+body{
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+}
+
+h1 {    
+    color: purple;
+}
+
+h2 {
+    color: mediumvioletred
+}
+
+img {
+    max-width: 100%;
+}
