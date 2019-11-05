@@ -1,0 +1,89 @@
+/* Starter Project Styles */
+body {
+    font-family: Futura, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    padding: 10%;
+    
+        background-image: url('http://pluspng.com/img-png/coffee-png-coffee-png-hd-png-image-541.png');
+  background-repeat: no-repeat;
+    
+  background-attachment: scroll;
+  background-position: top right;
+    background-color: tan
+  
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+li {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+    "product product product product"
+    "s m l .";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 680px) {
+  li {
+    grid-template-areas:
+      "product s m l";
+  }
+}
+
+.product {
+  background: none;
+  grid-area: product;
+
+}
+.small {
+  background: none;
+  color: white;
+  grid-area: s;
+}
+.medium {
+  background: none;
+  color: white;
+  grid-area: m;
+}
+.large {
+  background: none;
+  color: white;
+  grid-area: l;
+}
+ul {
+  width: 100%;
+}
+
+h1 {color: black rgba(255,255,255,.3);
+background: none;
+text-shadow: 0 0 15px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,1);
+  font-weight: bold;
+      font-size: 500%;
+  
+}
+h2 {color: black rgba(255,255,255,.3);
+background: none;
+text-shadow: 0 0 15px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,1);
+  font-weight: bold;
+    font-size: 250%;
+  
+}
+h4 {color: black rgba(255,255,255,.3);
+background: none;
+text-shadow: 0 0 15px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,1);
+  font-weight: bold;
+    font-size: 150%;
+  
+}
